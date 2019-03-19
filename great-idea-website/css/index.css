@@ -74,12 +74,16 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
-text-para {
-	display: inline-block;
+.text-para {
+	/* display: inline-block; */
+	/* color:blue; */
+	width: 33%;
+	display:inline-block;
 }
 
-text-row {
-	display: block;
+.text-row {
+	/* display: block; */
+	color:blue;
 }
 header .logo {
 	position: relative;
@@ -110,6 +114,7 @@ header nav a {
 	margin-left: 100px; 
 	height: 350px;
 	text-align: center;
+	color:blue;
 }
 
 .get-started {
