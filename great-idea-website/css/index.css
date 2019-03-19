@@ -69,17 +69,28 @@ h1, h2, h3, h4, h5 {
 	border: O solid #000;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
 }
 
+text-para {
+	display: inline-block;
+}
+
+text-row {
+	display: block;
+}
 header .logo {
 	position: relative;
 	right: 0px;
 }
 
+
 .container {
 	width: 800px;
 	margin: auto;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 header nav {
@@ -93,19 +104,25 @@ header nav a {
 	text-decoration: none;
 }
 
+.top-left {
+	padding-top: 100px;
+	display: inline-block;
+	margin-left: 100px; 
+	height: 350px;
+	text-align: center;
+}
+
 .get-started {
-	width: 200px;
-	height: 30px;	
-	border: black solid;
-	border-width: 1px;
-	display: block;
+	padding-top: 20px;
+	margin-top: 20px;
+	
 }
 
 .circle-photo {
-	display: inline-block;
-	float: right;
+	
 	margin: 20px;
 	height: 330px;
+	float: right;
 }
 
 
@@ -161,7 +178,11 @@ h2 .about {
 .copyright {
 	font-size: 10px;
 	margin: auto;
-	width: 400px;
-	position: relative;
+	text-align: center;
+	padding-top: 20px;
 
+}
+
+address {
+	padding-top: 20px;
 }
