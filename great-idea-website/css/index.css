@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.body-class {
+	border: O solid #000;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+header .logo {
+	position: relative;
+	right: 0px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	border: 2px solid red;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	color:gray;
+	margin: 0 20px;
+	text-decoration: none;
+}
+
+.get-started {
+	width: 200px;
+	height: 30px;	
+	border: black solid;
+	border-width: 1px;
+	display: block;
+	float: left;
+}
+
+.circle-photo {
+	display: inline-block;
+	float: right;
+	margin: 20px;
+	height: 330px;
+}
+
+
+.two-column {
+	float:left;
+	width: 50%;
+}
+
+.three-column {
+	float:left;
+	width: 33%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+h1 {
+	float:left;
+	font-size: 50px;
+	width: 200px;
+	margin: 10px;
+	
+
+}
+
+.top-section {
+	height: 400px;
+}
+
+.top-left-section {
+	padding-top: 20px;
+	display: inline-block;
+}
+
+h2 .features {
+	float: left;
+}
+
+h2 .about {
+	float: right;
+}
+
+.middle-img {
+	width: 800px;
+	padding: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.copyright {
+	font-size: 10px;
+	margin: auto;
+	width: 400px;
+	position: relative;
+
+}
